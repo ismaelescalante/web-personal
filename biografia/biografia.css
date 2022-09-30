@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0.5rem;
+}
+
+.navbar span{
+    font-weight: 700;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0.5rem;
+}
+
+.navbar ul li{
+    margin: 0px 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+    .navbar a:hover{
+        font-size: 18px;
+    }
