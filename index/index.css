@@ -1,67 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    height: 100%;
-    font-family: 'Libre Baskerville', serif;
-}
-
 body{
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.navbar{
-    background-color: black;
-    color: white;
+main{
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../imágenes/wagner.jpg);
+    background-size: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-.navbar span{
+.presentation{
+    text-align: center;
+    color: white;
+    margin-left: 75px;
+}
+
+.presentation h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.presentation p{
+    font-size: 22px;
     font-weight: 700;
 }
 
-.navbar ul{
-    list-style: none;
-    display: flex;
-    padding: 0.5rem;
-}
-
-.navbar ul li{
-    margin: 0px 10px;
-}
-
-.navbar a{
-    text-decoration: none;
-    color: white;
-    transition: all 0.2s ease-in-out;
-}
-
-    .navbar a:hover{
-        font-size: 18px;
-    }
 
 
-main{
-    /* background-image: url(../imágenes/wagner1.jpg); */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-}
 
