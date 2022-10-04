@@ -34,6 +34,7 @@ body{
     margin-left: 10px;
 }
 
+
 .navbar ul{
     list-style: none;
     display: flex;
@@ -62,3 +63,25 @@ body{
         color: white;
         padding: 1rem;
     }
+
+    @media (max-width: 586px){
+        .navbar span{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 556px) {
+        .navbar{
+            justify-content: center;
+        }
+
+        .navbar span{
+            display: none;
+        }
+        main{
+            background-size: cover;
+            background-position: 65% 100%;
+        }
+       
+    }
+    
